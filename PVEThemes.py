@@ -71,7 +71,6 @@ def patchThemes():
     print("Patching themes...")
     #get all of the .css themes to install in the themes folder
     themes = os.listdir("themes")
-    themes = os.listdir("themes")
     themes.sort()
 
     for theme in themes:
