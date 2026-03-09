@@ -55,10 +55,10 @@ def compileSassThemes():
             continue
         
         print("Compiling " + theme + "...")
-        f = open("themes/" + theme, "r", encoding="utf8")
+        # f = open("themes/" + theme, "r", encoding="utf8")
         #compile the sass file
-        compiledSASS = sass.compile(string=f.read(), output_style="compressed")
-        f.close()
+        compiledSASS = sass.compile(filename="themes/" + theme, output_style="compressed")
+        # f.close()
 
         #create a new .css file with the compiled sass
         f = open("themes/" + theme[:theme.find(".sass")] + ".css", "w", encoding="utf8")
