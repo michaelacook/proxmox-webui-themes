@@ -1,6 +1,4 @@
-Original idea and SASS files from https://github.com/Weilbyte/PVEDiscordDark
-# THIS PROJECT IS STILL MAINTAINED!
-The project itself is extremely low maintenance, hence there is periods with no commits for months. However, I am still maintaining this porject and will be for the foreseable future. Opened PRs are sent straight to my email so I will see them. If you have a theme you have concocted and want to see officially added, feel free to open a PR with it!
+This project is forked from [Happyrobot33's PVEThemes project](https://github.com/Happyrobot33/PVEThemes). This is a great project, and I wanted introduce some of my own changes and a complete overhaul of the themes while keeping the simple and elegant project structure intact.
 
 # Supported Proxmox Versions
 - 7.4
@@ -16,15 +14,15 @@ there is a few additional tweaks that can be enabled using the script. These are
 ## Installation
 Run the following commands in your PVE instance:
 ```bash
-git clone https://github.com/Happyrobot33/PVEThemes
-cd PVEThemes
+git clone https://github.com/michaelacook/proxmox-webui-themes
+cd proxmox-webui-themes
 chmod +x install.sh
 ./install.sh
 ```
 
 Or this one-liner:
 ```bash
-git clone https://github.com/Happyrobot33/PVEThemes && cd PVEThemes && chmod +x install.sh && ./install.sh
+git clone https://github.com/michaelacook/proxmox-webui-themes && cd proxmox-webui-themes && chmod +x install.sh && ./install.sh
 ```
 
 if you have ran the install.sh script before, you can instead just run the run.sh script
@@ -41,11 +39,4 @@ chmod +x install.sh
 ```
 This should hopefully fix any issues.
 
-![avali](./themes/previews/theme-avali.png)
-![discord dark](./themes/previews/theme-discord-dark.png)
-![discord light](./themes/previews/theme-discord-light.png)
-![nordigr](./themes/previews/theme-nordigr.png)
-![catppuccin latte](./themes/previews/theme-catppuccin-latte.png)
-![catppuccin frappe](./themes/previews/theme-catppuccin-frappe.png)
-![catppuccin macchiato](./themes/previews/theme-catppuccin-macchiato.png)
-![catppuccin mocha](./themes/previews/theme-catppuccin-mocha.png)
+Theme images incoming shortly.
