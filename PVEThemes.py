@@ -48,6 +48,8 @@ def compileSassThemes():
     print("Compiling SASS themes...")
     #get all of the .sass themes to compile
     themes = os.listdir("themes")
+    themes = os.listdir("themes")
+    themes.sort()
 
     for theme in themes:
         #check if it is a .sass file
